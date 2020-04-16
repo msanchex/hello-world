@@ -4,8 +4,8 @@ namespace HelloWorld;
 
 class SayHello
 {
-    public function greet($greet = "Hello World")
+    public function greet($name = "World")
     {
-        return $greet;
+        return "Hello: " . $name;
     }
 }
